@@ -9,7 +9,7 @@ This project requires xcode, cocoapods and authenticated [github cli](https://cl
 ```bash
 gem install cocoapods
 brew install gh
-git clone git@github.com:beekpr/ios-binaries.git
+git clone git@github.com:lumapps/ios-binaries.git
 gh auth login
 gh release list
 ```
