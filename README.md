@@ -1,5 +1,5 @@
 # ios-binaries
-A place to keep binary dependencies. Those binaries can by imported by [Swift Package Manager](https://developer.apple.com/documentation/swift_packages/distributing_binary_frameworks_as_swift_packages) or [CocoaPods](https://github.com/beekpr/ios-base/blob/develop/BeekeeperPackage/OpusCodec.podspec).
+A place to keep binary dependencies. Those binaries can by imported by [Swift Package Manager](https://developer.apple.com/documentation/swift_packages/distributing_binary_frameworks_as_swift_packages) or [CocoaPods](https://github.com/lumapps/ios-base/blob/develop/BeekeeperPackage/OpusCodec.podspec).
 
 # Caution
 Do not delete releases on this repository or binaries attached to those releases. This would break our CI builds.
@@ -47,7 +47,7 @@ https://github.com/realm/realm-swift/releases
 ## Building ogg & opus
 
 Those two libraries, written in C, are special.
-See: https://github.com/beekpr/ios-AudioXCFrameworks
+See: https://github.com/lumapps/ios-AudioXCFrameworks
 
 To generate ogg.xcframework and opus.xcframework, run these commands:
 ```
