@@ -31,4 +31,4 @@ cd Pods/Products-$TARGET || exit 1
 FRAMEWORKS=$(find . -maxdepth 1 -name "*.xcframework.zip")
 gh release create "$TAG" -F checksums-tag.txt $FRAMEWORKS
 gh release list
-open "https://github.com/beekpr/ios-binaries/releases/tag/$TAG"
+open "https://github.com/lumapps/ios-binaries/releases/tag/$TAG"

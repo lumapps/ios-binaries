@@ -9,7 +9,7 @@ This project requires xcode, cocoapods and authenticated [github cli](https://cl
 ```bash
 gem install cocoapods
 brew install gh
-git clone git@github.com:beekpr/ios-binaries.git
+git clone git@github.com:lumapps/ios-binaries.git
 gh auth login
 gh release list
 ```
@@ -41,4 +41,4 @@ cd FrameworkGenerator
 5. Update Bitrise Development apps to use new Xcode version:
     - ios-base-app-builder https://app.bitrise.io/app/d0b8c20265643152/workflow_editor#!/stack
     - ios-base pull request builder https://app.bitrise.io/app/e3a89dc05347cd72/workflow_editor#!/stack
-6. Later, before app-store release, update [bitrise-app-sync](https://github.com/beekpr/bitrise-app-sync/blob/2c43e3332117f29545f83b28f4cd9d59a83c86f2/modules/beekeeper_bitrise_settings.py#L16).
+6. Later, before app-store release, update [bitrise-app-sync](https://github.com/lumapps/bitrise-app-sync/blob/2c43e3332117f29545f83b28f4cd9d59a83c86f2/modules/beekeeper_bitrise_settings.py#L16).
